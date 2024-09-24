@@ -1,0 +1,32 @@
+To install Google Chrome on an Ubuntu system, follow these steps:
+
+### 1. **Download the Chrome .deb package:**
+   - Open a terminal (you can use `Ctrl + Alt + T` to launch it).
+   - Download the latest Google Chrome `.deb` package using `wget`:
+     ```bash
+     wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+     ```
+
+### 2. **Install Google Chrome using `dpkg`:**
+   - After the download is complete, install the package using the `dpkg` command:
+     ```bash
+     sudo dpkg -i google-chrome-stable_current_amd64.deb
+     ```
+
+### 3. **Fix dependencies (if necessary):**
+   - If there are missing dependencies during installation, you can fix them by running:
+     ```bash
+     sudo apt --fix-broken install
+     ```
+
+### 4. **Launch Google Chrome:**
+   - Once installed, you can launch Google Chrome from the terminal by typing:
+     ```bash
+     google-chrome
+     ```
+   - Alternatively, search for "Google Chrome" in the application menu and open it from there.
+
+### 5. **Set Chrome as the default browser (optional):**
+   - If you want to set Google Chrome as your default web browser, you can do so in the system settings under "Default Applications."
+
+With these steps, you should have Google Chrome successfully installed on your Ubuntu system!
